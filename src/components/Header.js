@@ -30,11 +30,11 @@ const Header = () => {
             <div className='flex'>
         <Badge badgeContent={getData.length} color="primary" onClick={() => {
             const menu=document.querySelector('.menu');
-            if(menu.style.display==='none'){
-                menu.style.display='block';
+            if(menu.style.display==='block'){
+                menu.style.display='none';
             }
             else{
-                menu.style.display='none';
+                menu.style.display='block';
             }
             
         }}>
